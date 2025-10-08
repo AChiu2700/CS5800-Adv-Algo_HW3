@@ -10,17 +10,16 @@ public class PizzaDriver{
         
         Pizza pizza2 = new Pizza.PizzaBuilder()
                 .setSize("Medium")
-                .setSize("Large")
                 .addTopping("Bacon")
                 .addTopping("Extra Cheese")
                 .addTopping("Peppers")
                 .addTopping("Chicken")
                 .addTopping("Olives")
+                .addTopping("Pesto")
                 .build();
         
         Pizza pizza3 = new Pizza.PizzaBuilder()
                 .setSize("Large")
-                .setChain("Pizza Hut")
                 .addTopping("Spicy Pork")
                 .addTopping("Ham")
                 .addTopping("Mushrooms")
